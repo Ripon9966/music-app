@@ -44,4 +44,30 @@ nav.circle{
 .music-player h1{
     font-size: 20px;
     font-weight: 400px;
+    color: #333;
+    margin-top: 20px;
+
+}
+.music-player p{
+    font-size: 14px;
+    color: #333;
+}
+#prog{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4ppx;
+    cursor: pointer;
+    margin: 40px 0;
+}
+#prog::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+
 }
